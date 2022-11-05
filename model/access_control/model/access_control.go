@@ -5,7 +5,7 @@ import (
 )
 
 type AccessControl struct {
-	Id                primitive.ObjectID `json:"id" bson:"id"`
+	Id                primitive.ObjectID `json:"_id" bson:"_id"`
 	AccessControlName string             `json:"access_control_name" bson:"access_control_name"`
 }
 
