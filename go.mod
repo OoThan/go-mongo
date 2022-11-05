@@ -3,14 +3,17 @@ module go-mongo
 go 1.19
 
 require (
+	github.com/labstack/echo/v4 v4.9.1
 	go.mongodb.org/mongo-driver v1.11.0
 	go.uber.org/zap v1.23.0
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 )
 
 require (
+	github.com/BurntSushi/toml v1.2.1 // indirect
+	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/klauspost/compress v1.15.12 // indirect
-	github.com/labstack/echo/v4 v4.9.1 // indirect
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/mattn/go-colorable v0.1.11 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
@@ -29,5 +32,6 @@ require (
 	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.1.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
-	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
+	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
